@@ -1,0 +1,21 @@
+name: tsa-lecture
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - ipykernel
+  
+  - scikit-learn
+  - tslearn
+  - statsmodels
+  # - psycopg2
+  # - sqlalchemy
+
+  - pip
+  - pip:
+    - meteostat
