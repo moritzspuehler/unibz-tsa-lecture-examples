@@ -13,8 +13,6 @@ dependencies:
   - scikit-learn
   - tslearn
   - statsmodels
-  # - psycopg2
-  # - sqlalchemy
 
   - pip
   - pip:
